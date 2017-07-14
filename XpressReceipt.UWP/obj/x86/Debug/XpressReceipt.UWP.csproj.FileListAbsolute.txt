@@ -1,0 +1,14 @@
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XpressReceipt.UWP.csprojResolveAssemblyReference.cache
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\App.g.i.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\App.g.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\MainPage.g.i.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\MainPage.g.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\App.xaml
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\MainPage.xaml
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\App.xbf
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\MainPage.xbf
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XpressReceipt.UWP.C_.Telaeris.Xamarin.XpressReceipt.XpressReceipt.XpressReceipt.MainPage.xaml.g.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XpressReceipt.UWP.C_.Telaeris.Xamarin.XpressReceipt.XpressReceipt.XpressReceipt.App.xaml.g.cs
+C:\Telaeris\Xamarin\XpressReceipt\XpressReceipt\XpressReceipt.UWP\obj\x86\Debug\XpressReceipt.UWP.C_.Telaeris.Xamarin.XpressReceipt.XpressReceipt.XpressReceipt.SettingsPage.xaml.g.cs

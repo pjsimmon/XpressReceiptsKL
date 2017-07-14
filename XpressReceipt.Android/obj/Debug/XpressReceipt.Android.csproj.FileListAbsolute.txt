@@ -1,0 +1,292 @@
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.apk
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android-Signed.apk
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.MainPage.xaml.g.cs
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.App.xaml.g.cs
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/bin/XpressReceipt.Android.apk
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/drawable/icon.png
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/tabbar.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/toolbar.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/values/styles.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/R.cs.flag
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/uploadflags.txt
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.csprojResolveAssemblyReference.cache
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Java.Interop.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Mono.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/mscorlib.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.ComponentModel.Composition.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.Core.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.Net.Http.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.Runtime.Serialization.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.ServiceModel.Internals.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.Xml.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/System.Xml.Linq.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/FormsViewGroup.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Java.Interop.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Mono.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/mscorlib.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Media.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Media.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Permissions.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Permissions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.Core.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.Net.Http.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.Xml.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/System.Xml.Linq.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Xamarin.Forms.Core.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/XpressReceipt.Android.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.pdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.xml
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Messaging.Abstractions.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/assets/Plugin.Messaging.dll.mdb
+c:/users/telaeris/documents/visual studio 2017/Projects/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/BouncyCastle.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MailKit.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MimeKit.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.CustomTabs.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Auth.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MailKit.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MimeKit.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.csprojResolveAssemblyReference.cache
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.MainPage.xaml.g.cs
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.App.xaml.g.cs
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.pdb
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/drawable/icon.png
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/tabbar.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/toolbar.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/values/styles.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/R.cs.flag
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/uploadflags.txt
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PCLCrypto.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.BCrypt.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Kernel32.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.NCrypt.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Windows.Core.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Validation.dll
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PCLCrypto.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.BCrypt.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Kernel32.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.NCrypt.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Windows.Core.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Validation.xml
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/com.telaeris.xpressreceipt.apk
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/com.telaeris.xpressreceipt-Signed.apk
+C:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/bin/com.telaeris.xpressreceipt.apk
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.SettingsPage.xaml.g.cs
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.Page1.xaml.g.cs
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.batteries_green.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.core.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.xml
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.dll.mdb
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.dll.mdb
+c:/Telaeris/Xamarin/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.csprojResolveAssemblyReference.cache
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.csproj.CoreCompileInputs.cache
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.MainPage.xaml.g.cs
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.App.xaml.g.cs
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.SettingsPage.xaml.g.cs
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Android.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/XpressReceipt.Android.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/com.telaeris.xpressreceipt.apk
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/com.telaeris.xpressreceipt-Signed.apk
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/BouncyCastle.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MailKit.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MimeKit.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PCLCrypto.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.BCrypt.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Kernel32.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.NCrypt.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Windows.Core.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.core.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Validation.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.CustomTabs.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Auth.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/FormsViewGroup.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MailKit.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/MimeKit.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PCLCrypto.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.BCrypt.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Kernel32.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.NCrypt.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/PInvoke.Windows.Core.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.CurrentActivity.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Media.Abstractions.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Messaging.Abstractions.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/SQLite-net.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Validation.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Core.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/android/bin/com.telaeris.xpressreceipt.apk
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/drawable/icon.png
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/tabbar.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/layout/toolbar.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/res/values/styles.xml
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/R.cs.flag
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/uploadflags.txt
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.UploadPage2.xaml.g.cs
+/Users/jasminesimmons/Projects/svn/xamarin/trunk/XpressReceipt/XpressReceipt/XpressReceipt.Android/obj/Debug/XpressReceipt.Droid.EmailPage.xaml.g.cs
