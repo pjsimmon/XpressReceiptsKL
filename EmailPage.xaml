@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XpressReceipt.EmailPage">
+	<StackLayout>
+    <Label Text="Email Info Page" 
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+             Font="Bold, 30"/>
+
+    <StackLayout
+      Orientation="Vertical"
+      HorizontalOptions="FillAndExpand"
+      VerticalOptions="FillAndExpand"
+      Margin = "10">
+
+      <Label Text="To:"  />  
+      <Entry x:Name="ToField" Text="" />
+
+     <Label Text="From:"  /> 
+     <Entry x:Name="FromField" Text="" />
+
+      <Label Text="Subject Line: Purpose/Category [Vendor $Amount DateOfPurchase"/> 
+      <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17"/> 
+      <Editor x:Name="MessageField" Text=""/>      
+
+
+    <Label Text="Picture of Receipt: " />
+    <Image x:Name="ImageTaken" 
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"/>
+
+         <Button x:Name="ConfirmEmailBtn" Text="Confirm"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XpressReceipt"
+             x:Class="XpressReceipt.MainPage">
+
+
+  <StackLayout>
+	  <Label Text="XPressReceipts" 
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+             Font="Bold, 30"/>
+
+    <StackLayout
+      Orientation="Horizontal"
+      HorizontalOptions="Center">
+    <Button x:Name="BtnCapture" Text="Capture"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Clicked="BtnCapture_Clicked" />
+
+    <Button x:Name="BtnUpload" Text="Upload"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Clicked="BtnUpload_Clicked" />
+
+
+      <Button x:Name="BtnSettings" Text="Settings"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Clicked="BtnSettings_Clicked" />
+
+    </StackLayout>
+    <Image x:Name="ImageTaken" 
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"/>
+
+  </StackLayout>
+</ContentPage>

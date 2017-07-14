@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XpressReceipt.UploadPage2">
+
+  <StackLayout>
+    <Label Text="Enter or Upload Receipt Information:" 
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+             Font="Bold, 20"/>
+
+    <StackLayout
+      Orientation="Vertical"
+      HorizontalOptions="FillAndExpand"
+      VerticalOptions="FillAndExpand">
+
+            
+      <Entry x:Name="CostField" Text="Cost (without tax):" />
+
+      <Entry x:Name="TaxField" Text="Tax:" />
+
+      <Entry x:Name="TipField" Text="Tip (optional):"/> 
+
+      <Entry x:Name="TotalField" Text="Total:"/>  
+
+     
+      <Button x:Name="ConfirmInfoBtn" Text="Confirm and Send"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+
+
+    </StackLayout>
+    <Image x:Name="ImageTaken" 
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"/>
+
+  </StackLayout>
+</ContentPage>
