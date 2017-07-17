@@ -15,14 +15,23 @@
       VerticalOptions="FillAndExpand"
       Margin="10">
 
-      <Label Text="My Email:"  />    
-      <Entry x:Name="MyEmail" Text="" />
+      <Label Text="My Default Email:"  /> 
+            
+      <Entry Text="{Binding SenderEmail, Mode=TwoWay}" />
 
-      <Label Text="Receiver's Email:"  /> 
-      <Entry x:Name="OtherEmail" Text="" />
+      <Label Text="Receiver's Default Email:"  /> 
+            
+      <Entry x:Name="ReceiverDefaultEmailEntry" 
+            Text="{Binding ReceiverEmail, Mode=TwoWay}" />
 
 
-      <Entry x:Name="ContactList" Text="Contacts:"/>      
+      <Entry x:Name="ContactList" Text="Contacts:"/>    
+
+            
+      <!-- Testing binding -->
+
+      <Label Text="Your e-mail is:" />
+      <Label Text="{Binding SenderEmail}" />       
 
             
       <Button x:Name="UpdateSettingsBtn" Text="Update Settings"

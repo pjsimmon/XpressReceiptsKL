@@ -15,6 +15,7 @@ namespace XpressReceipt
         public EmailPage()
         {
             InitializeComponent();
+            BindingContext = new DetailsViewModel();
         }
     }
 }

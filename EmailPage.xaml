@@ -15,13 +15,15 @@
       Margin = "10">
 
       <Label Text="To:"  />  
-      <Entry x:Name="ToField" Text="" />
+      <Entry x:Name="ToField" 
+            Text="jasmine@telaeris.com" />
 
      <Label Text="From:"  /> 
-     <Entry x:Name="FromField" Text="" />
+     <Entry x:Name="FromField" Text="pjasminesimmons@gmail.com" />
 
-      <Label Text="Subject Line: Purpose/Category [Vendor $Amount DateOfPurchase"/> 
-      <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17"/> 
+      <Label Text = "Subject Line: "/>
+      <Label Text = "Purpose/Category [Vendor $Amount DateOfPurchase] "/>   
+      <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17]"/> 
       <Editor x:Name="MessageField" Text=""/>      
 
 
