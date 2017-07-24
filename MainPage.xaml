@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XpressReceipt"
@@ -9,11 +9,30 @@
 	  <Label Text="XPressReceipts" 
              VerticalOptions="Center" 
              HorizontalOptions="Center" 
-             Font="Bold, 30"/>
+             Font="Bold, 30"
+            Margin = "10"/>
+
+         <Label Text="How to use this app:"
+         Margin = "10"/>
+        
+        <Label Text="1. Login into your email on the settings page." 
+         Margin = "10"/>
+
+        <Label Text="2. Take a picture of a receipt by clicking 'capture'." 
+         Margin = "10"/>
+
+        <Label Text="3. Upload and send the receipt. " 
+         Margin = "10"/>
 
     <StackLayout
       Orientation="Horizontal"
       HorizontalOptions="Center">
+
+     <Button x:Name="BtnSettings" Text="Settings"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Clicked="BtnSettings_Clicked" />        
+            
     <Button x:Name="BtnCapture" Text="Capture"
             VerticalOptions="Center"
             HorizontalOptions="Center"
@@ -24,11 +43,6 @@
             HorizontalOptions="Center"
             Clicked="BtnUpload_Clicked" />
 
-
-      <Button x:Name="BtnSettings" Text="Settings"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            Clicked="BtnSettings_Clicked" />
 
     </StackLayout>
     <Image x:Name="ImageTaken" 

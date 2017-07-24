@@ -14,17 +14,19 @@
       VerticalOptions="FillAndExpand"
       Margin = "10">
 
+      <Label x:Name= "FromField"  /> 
+            
       <Label Text="To:"  />  
       <Entry x:Name="ToField" 
-            Text="jasmine@telaeris.com" />
+            Text="{Binding ReceiverEmail, Mode=TwoWay}"/>
 
-     <Label Text="From:"  /> 
-     <Entry x:Name="FromField" Text="pjasminesimmons@gmail.com" />
-
-      <Label Text = "Subject Line: "/>
+   
+      <Label Text = "Enter A Subject Line With This Format: "/>
       <Label Text = "Purpose/Category [Vendor $Amount DateOfPurchase] "/>   
       <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17]"/> 
-      <Editor x:Name="MessageField" Text=""/>      
+      <Entry x:Name="MessageField" 
+            Text="{Binding SubjectLine, Mode=TwoWay}"
+            />      
 
 
     <Label Text="Picture of Receipt: " />
@@ -34,8 +36,11 @@
 
          <Button x:Name="ConfirmEmailBtn" Text="Confirm"
             VerticalOptions="Center"
-            HorizontalOptions="Center"/>
+            HorizontalOptions="Center"
+            Clicked="BtnUploadConfirm_Clicked"/>
 
     </StackLayout>
+
+        
   </StackLayout>
 </ContentPage>

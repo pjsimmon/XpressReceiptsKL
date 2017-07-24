@@ -15,17 +15,23 @@
       VerticalOptions="FillAndExpand"
       Margin="10">
 
-      <Label Text="My Default Email:"  /> 
+      <Label Text="Enter Your Email:"  /> 
             
-      <Entry Text="{Binding SenderEmail, Mode=TwoWay}" />
+      <Entry x:Name="SenderEmail"
+            Text="{Binding SenderEmail, Mode=TwoWay}" />
 
-      <Label Text="Receiver's Default Email:"  /> 
+      <Label Text="Enter Your Password:"  /> 
             
-      <Entry x:Name="ReceiverDefaultEmailEntry" 
-            Text="{Binding ReceiverEmail, Mode=TwoWay}" />
+      <Entry x:Name="SenderPassword" 
+            Text="{Binding SenderPassword, Mode=TwoWay}"
+            IsPassword="true"/>
 
 
-      <Entry x:Name="ContactList" Text="Contacts:"/>    
+      <Label Text="Enter The Last 4 Digits of your Credit Card Number:"  /> 
+            
+      <Entry x:Name="Last4Digits" 
+            Text="{Binding Last4Digits, Mode=TwoWay}"
+            IsPassword="false"/>  
 
             
       <!-- Testing binding -->
@@ -34,11 +40,15 @@
       <Label Text="{Binding SenderEmail}" />       
 
             
-      <Button x:Name="UpdateSettingsBtn" Text="Update Settings"
+      <Button x:Name="UpdateSettingsBtn" 
+                Text="Update Settings"
+                Clicked="UpdateSettings_Clicked"
             VerticalOptions="Center"
             HorizontalOptions="Center"/>
 
-      <Button x:Name="CancelSettingsBtn" Text="Cancel"
+      <Button x:Name="CancelSettingsBtn" 
+                Text="Cancel"
+                Clicked="CancelSettingsBtn_Clicked"
             VerticalOptions="Center"
             HorizontalOptions="Center"/>
 
