@@ -2,45 +2,67 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XpressReceipt.EmailPage">
-	<StackLayout>
-    <Label Text="Email Info Page" 
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <ScrollView Orientation="Vertical" Padding="0" HorizontalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="Center">
+
+            <Label Text="Email Info Page" 
              VerticalOptions="Center" 
              HorizontalOptions="Center" 
              Font="Bold, 30"/>
 
-    <StackLayout
-      Orientation="Vertical"
-      HorizontalOptions="FillAndExpand"
-      VerticalOptions="FillAndExpand"
-      Margin = "10">
-
-      <Label x:Name= "FromField"  /> 
             
-      <Label Text="To:"  />  
-      <Entry x:Name="ToField" 
-            Text="{Binding ReceiverEmail, Mode=TwoWay}"/>
+
+              <Label x:Name= "FromField"  /> 
+            
+             <Label Text="To:"  />  
+             <Entry x:Name="ToField" 
+                Text="{Binding ReceiverEmail, Mode=TwoWay}"/>
 
    
-      <Label Text = "Enter A Subject Line With This Format: "/>
-      <Label Text = "Purpose/Category [Vendor $Amount DateOfPurchase] "/>   
-      <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17]"/> 
-      <Entry x:Name="MessageField" 
-            Text="{Binding SubjectLine, Mode=TwoWay}"
-            />      
+             <Label Text = "Subject Line Will Be In This Format: "/>
+             <Label Text = "Purpose/Category [Vendor $Amount DateOfPurchase] "/>   
+             <Label Text="i.e. Office Supplies [Staples $30.44 07/29/17]"/> 
+             <!--
+                <Entry x:Name="MessageField" Text="{Binding SubjectLine, Mode=TwoWay}" />      
+                -->
+
+                 <Button x:Name="OCR_button" Text="Perform OCR"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Clicked="Perform_OCR"/>
+
+            <Label Text=" "/> 
+                
+              <Label Text = "Purpose/Category: "/>
+              <Entry x:Name="PurposeField" Text="{Binding PurposeLine, Mode=TwoWay}" />
+                
+             <Label Text = "Vendor:"/>   
+             <Entry x:Name="VendorField" Text="{Binding VendorLine, Mode=TwoWay}" />
+      
+             <Label Text="Total $ Amount:"/> 
+             <Entry x:Name="AmountField" Text="{Binding AmountLine, Mode=TwoWay}" />
+ 
+             <Label Text = "Date Of Purchase: "/>
+             <Entry x:Name="DateField" Text="{Binding DateLine, Mode=TwoWay}" />
+   
+
+                
+             <Label Text="Picture of Receipt: " />
+             <Image x:Name="ImageTaken"  VerticalOptions="FillAndExpand"
+                 HorizontalOptions="FillAndExpand"/>
 
 
-    <Label Text="Picture of Receipt: " />
-    <Image x:Name="ImageTaken" 
-           VerticalOptions="FillAndExpand"
-           HorizontalOptions="FillAndExpand"/>
+             <Label Text="Email Body: " />
+             <Entry x:Name="BodyField" Text="{Binding BodyLine, Mode=TwoWay}" />
 
-         <Button x:Name="ConfirmEmailBtn" Text="Confirm"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            Clicked="BtnUploadConfirm_Clicked"/>
+            <Button x:Name="ConfirmEmailBtn" Text="Confirm"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Clicked="BtnUploadConfirm_Clicked"/>
 
-    </StackLayout>
 
-        
-  </StackLayout>
+      </StackLayout>
+    </ScrollView>
+              </StackLayout>
+
 </ContentPage>

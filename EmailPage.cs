@@ -1,4 +1,6 @@
-﻿using System;
+﻿//using Java.IO;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,32 +9,48 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+//For email and picture
 using Plugin.Media;
-using Plugin.Messaging;
+using Plugin.Connectivity;
 using Plugin.Media.Abstractions;
+using Plugin.Messaging;
 using MailKit.Net.Smtp;
 using MimeKit;
 using Xamarin.Auth;
 
+
+//For OCR
+using Microsoft.ProjectOxford.Vision;
+using Microsoft.ProjectOxford.Vision.Contract;
+
+
 namespace XpressReceipt
 {
 
+   
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EmailPage : ContentPage
     {
+		private readonly VisionServiceClient visionClient;
 
 		String userEmail = "";
 		String userPassword = "";
 		String userCard = "";
 
-        String file_location;
+        String receiptTotal;
 
-        public EmailPage(String picturePath)
+        String file_location;
+        //MediaFile photo_receipt;
+
+        public EmailPage(String photo)
         {
             InitializeComponent();
             BindingContext = new DetailsViewModel();
+            this.visionClient = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
 
-            if (picturePath == null)
+            file_location = photo;
+
+            if (photo == null)
             {
                 DisplayAlert("Alert", "You must take a picture before sending an e-mail.", "OK");
 
@@ -40,6 +58,8 @@ namespace XpressReceipt
             //Display the image
             else 
             {
+                //photo_receipt = photo;
+
                 //If they had already sent an e-mail, should have a recipient stored.
                 if (Application.Current.Properties.ContainsKey("receiver_email"))
                 {
@@ -47,10 +67,10 @@ namespace XpressReceipt
                     ToField.Text = to_field;
                 }
 
-                file_location = picturePath;
+                //file_location = photo.Path;
 
 				//ImageTaken = new Image { Aspect = Aspect.AspectFit };
-				ImageTaken.Source = ImageSource.FromFile(picturePath);
+				ImageTaken.Source = ImageSource.FromFile(file_location);
 				
 
                 //Make sure that a user is logged in.
@@ -64,8 +84,6 @@ namespace XpressReceipt
 					DisplayAlert("Alert:", "Please make sure you are logged in first.", "OK");
 
 				}
-
-               
                 
             }
 			
@@ -125,8 +143,9 @@ namespace XpressReceipt
 					}
                     */
 
-					//This gets executed instead:
-					SendSMTPMail(userEmail, receiverEmail, MessageField.Text, "Email body");
+                    //This gets executed instead:
+                    String subjectLine = (PurposeField.Text + " [" + VendorField.Text + AmountField.Text + DateField.Text + "]");
+					SendSMTPMail(userEmail, receiverEmail, subjectLine, "Email body");
 
 
 				}
@@ -136,6 +155,13 @@ namespace XpressReceipt
                
 			
 		} //end Upload->Confirm Clicked
+
+
+        //When OCR button clicked
+        public void Perform_OCR(object sender, EventArgs e)
+        {
+            OcrGetTotal(file_location);
+        }
 
 
 
@@ -208,6 +234,78 @@ namespace XpressReceipt
 			}
 
 		} //end SendSMTPMail
+
+
+        public async void OcrGetTotal(String photo_loc) 
+        {
+            //API Key for OCR access:
+            //VisionServiceClient client = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
+
+			OcrResults text;
+            double total = 0.0;
+            //var photo_location = photo.Path;
+
+            String pathName = photo_loc;
+
+            if (pathName == null)
+            {
+                await DisplayAlert("Alert", "No photo has been taken, cannot perform OCR.", "OK");
+                return;
+            }
+
+            //Check for network Connectivity
+			if (!CrossConnectivity.Current.IsConnected)
+			{
+				await DisplayAlert("Network Error", "Please reconnect network and retry", "OK");
+				return;
+			}
+			
+            //var new_photo = System.IO.File.OpenRead(photo_location);
+
+            using (var photoStream = System.IO.File.OpenRead(photo_loc))
+            {
+                try
+                {
+                    text = await visionClient.RecognizeTextAsync(photoStream);  //Causes android to stop working?
+
+                } catch (Exception e)
+                {
+                    Console.WriteLine("Exception Caught: " + e); //System.Net.WebException: Error: NameResolutionFailure
+				}
+            }
+            		
+            /*
+			foreach (var region in text.Regions)
+			{
+				foreach (var line in region.Lines)
+				{
+					foreach (var word in line.Words)
+					{
+						if (word.Text.Contains("$"))
+						{
+							var number = Double.Parse(word.Text.Replace("$", ""));
+							total = (number > total) ? number : total;
+						}
+					}
+				}
+			} 
+               
+            String string_total = total.ToString();
+            receiptTotal = string_total;
+
+			await DisplayAlert("Alert", "The total is:" + receiptTotal, "OK");
+
+            //Maybe put this in its own method and call at end, when completely done with file.
+            photo.Dispose();
+
+            AmountField.Text = total.ToString();
+            */
+
+
+		} //end performOCR_getTotal
+
+
+
 
 	}
 }

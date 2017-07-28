@@ -22,6 +22,7 @@ namespace XpressReceipt
         //Image image = new Image();
         //ICredentialsService storeService;
         String file_location = null;
+        MediaFile photo;
 
         public MainPage()
         {
@@ -62,6 +63,7 @@ namespace XpressReceipt
 
             try
             {
+                //var file should be same as MediaFile photo?
                 var file = await CrossMedia.Current.TakePhotoAsync(mediaOptions);
 
                 file_location = file.Path;
@@ -72,8 +74,11 @@ namespace XpressReceipt
                     return stream;
                 });
 
+                /////////get the photo to perform OCR on /////////
+                //photo = file;
+
             }
-            catch (System.NullReferenceException nrex) //when user cancels picture
+            catch (System.NullReferenceException) //when user cancels picture
             {
                 await Navigation.PushAsync(new MainPage());
             }
@@ -101,6 +106,11 @@ namespace XpressReceipt
              Navigation.PushAsync(new SettingsPage());
             //Navigation.PushAsync(new LoginPage());
         }
+
+
+
+        //Perform OCR on the photo
+
 
     }
 }
