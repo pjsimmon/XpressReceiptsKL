@@ -11,6 +11,9 @@ using MailKit.Net.Smtp;
 using MimeKit;
 using Xamarin.Auth;
 
+using Microsoft.ProjectOxford.Vision;
+using Microsoft.ProjectOxford.Vision.Contract;
+
 
 
 namespace XpressReceipt
@@ -60,15 +63,61 @@ namespace XpressReceipt
 
             if (mediaOptions == null)
                 return;
+           
 
             try
             {
-                //var file should be same as MediaFile photo?
+                
                 var file = await CrossMedia.Current.TakePhotoAsync(mediaOptions);
 
-                file_location = file.Path;
-                ImageTaken.Source = ImageSource.FromStream(() =>
+				//////Perform OCR on the image//////
+                 /*
+				OcrResults text;
+                double total = 0.0;
+
+				var client = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071", "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0");
+                using (var photoStream = file.GetStream())
                 {
+                    //text = await client.RecognizeTextAsync(photoStream);
+                    text = client.RecognizeTextAsync(photoStream, "eng", "true");
+                }
+
+
+				foreach (var region in text.Regions)
+				{
+					foreach (var line in region.Lines)
+					{
+						foreach (var word in line.Words)
+						{
+                            Console.WriteLine("A word is: " + word);
+                            Console.WriteLine("A word_string is: " + word.ToString());
+							if (word.Text.Contains("$"))
+							{
+								Console.WriteLine("The word is: " + word);
+								var number = Double.Parse(word.Text.Replace("$", ""));
+
+								total = (number > total) ? number : total;
+							}
+						}
+					}
+				}
+
+				String string_total = total.ToString();
+			
+
+				await DisplayAlert("Alert", "The total is:" + string_total, "OK");
+                */
+
+
+                /////////////////////////////////
+
+
+                file_location = file.Path;
+
+
+                 //Shows picture on main screen.
+                ImageTaken.Source = ImageSource.FromStream(() => 
+				{
                     var stream = file.GetStream();
                     file.Dispose();
                     return stream;

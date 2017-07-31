@@ -18,7 +18,7 @@
             
              <Label Text="To:"  />  
              <Entry x:Name="ToField" 
-                Text="{Binding ReceiverEmail, Mode=TwoWay}"/>
+                Text="{Binding ToField, Mode=TwoWay}"/>
 
    
              <Label Text = "Subject Line Will Be In This Format: "/>
@@ -34,8 +34,29 @@
 
             <Label Text=" "/> 
                 
-              <Label Text = "Purpose/Category: "/>
+              <Picker x:Name="PurposePicker" Title="Select a Purpose/Category" SelectedIndexChanged="onPickerSelectedIndexChanged">
+                <Picker.ItemsSource>
+                  <x:Array Type="{x:Type x:String}">
+                        <x:String>Food/Drink</x:String>
+                        <x:String>Office Supplies</x:String>
+                        <x:String>Gas</x:String>
+                        <x:String>Travel Expense</x:String>
+                        <x:String>Hardware Expense</x:String>
+                        <x:String>Software Expense</x:String>
+                        <x:String>Entertainment</x:String>
+                        <x:String>Other/Misc.</x:String>
+                  </x:Array>
+                </Picker.ItemsSource> 
+              </Picker>
+
+                <!--
+             <Label Text = "{Binding Source={x:Reference PurposePicker}, Path=SelectedItem}"/>
+             -->
+                
+                
+                <!--
               <Entry x:Name="PurposeField" Text="{Binding PurposeLine, Mode=TwoWay}" />
+                -->
                 
              <Label Text = "Vendor:"/>   
              <Entry x:Name="VendorField" Text="{Binding VendorLine, Mode=TwoWay}" />
@@ -45,7 +66,9 @@
  
              <Label Text = "Date Of Purchase: "/>
              <Entry x:Name="DateField" Text="{Binding DateLine, Mode=TwoWay}" />
-   
+
+             <Label Text = "Last 4 Digits of Credit Card Number: "/>
+             <Entry x:Name="CardField" Text="{Binding CardLine, Mode=TwoWay}" />
 
                 
              <Label Text="Picture of Receipt: " />

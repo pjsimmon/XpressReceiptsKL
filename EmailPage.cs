@@ -1,6 +1,7 @@
 ﻿//using Java.IO;
 
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,17 +37,29 @@ namespace XpressReceipt
 		String userEmail = "";
 		String userPassword = "";
 		String userCard = "";
+        String toEmail = "";
 
         String receiptTotal;
 
         String file_location;
+
+        String purpose = "";
         //MediaFile photo_receipt;
 
         public EmailPage(String photo)
         {
             InitializeComponent();
             BindingContext = new DetailsViewModel();
-            this.visionClient = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
+            this.visionClient = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071", "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0");
+
+            //Set up the default values for the entries:
+            /*
+            ToField.Text = "Recipient Email Address";
+            VendorField.Text = "Vendor:";
+            AmountField.Text = "Total $ Amount:";
+            DateField.Text = "Date of Purchase:";
+            */
+
 
             file_location = photo;
 
@@ -65,6 +78,7 @@ namespace XpressReceipt
                 {
                     var to_field = Application.Current.Properties["receiver_email"] as String;
                     ToField.Text = to_field;
+                    toEmail = to_field;
                 }
 
                 //file_location = photo.Path;
@@ -89,6 +103,20 @@ namespace XpressReceipt
 			
 
         } //End EmailPage
+
+        //Method for choosing the Purpose/Category for expense from the Picker
+        public void onPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Console.WriteLine("PICKER IS PICKIN!!" );
+            var picker = (Picker)sender;
+            int selectedIndex = picker.SelectedIndex;
+            if (selectedIndex != -1)
+            {
+                purpose = (string)picker.ItemsSource[selectedIndex];
+                Console.WriteLine("Purpose is: " + purpose);
+            }
+
+        }
         
 
 		public void BtnUploadConfirm_Clicked(object sender, EventArgs e)
@@ -101,7 +129,7 @@ namespace XpressReceipt
             {
 
                 ///// RECEIVER INFORMATION /////
-            
+
                 if (ToField.Text == null) 
                 {
 					DisplayAlert("Alert", "Your e-mail must have a recipient.", "OK");
@@ -109,51 +137,63 @@ namespace XpressReceipt
 				}
                 else 
                 {
-					String receiverEmail = ToField.Text;
-					Application.Current.Properties["receiver_email"] = ToField.Text;
-					//////USER INFORMATION ////////
+                    //Check to make sure that there is something in each text field.
+                    //(Checked null but should also check empty case).
+                    if (String.IsNullOrEmpty(purpose) || String.IsNullOrEmpty(VendorField.Text)||
+                        String.IsNullOrEmpty(AmountField.Text) || String.IsNullOrEmpty(DateField.Text) ||
+                        String.IsNullOrEmpty(CardField.Text))
+                    {
+                        DisplayAlert("Alert", "Please make sure that each entry  is filled with information.", "OK");
+                        return;
+                    }
+                    else
+                    {
+						String receiverEmail = ToField.Text;
+						Application.Current.Properties["receiver_email"] = ToField.Text;
+						//////USER INFORMATION ////////
 
-					//get Persistent info from the login page
-					if (Application.Current.Properties.ContainsKey("user_e")
-						&& Application.Current.Properties.ContainsKey("user_pw")
-						&& Application.Current.Properties.ContainsKey("user_card"))
-					{
-						var id_e = Application.Current.Properties["user_e"] as String;
-						userEmail = id_e;
-						var id_pw = Application.Current.Properties["user_pw"] as String;
-						userPassword = id_pw;
-						var id_c = Application.Current.Properties["user_card"] as String;
-						userCard = id_c;
+						//get Persistent info from the login page
+						if (Application.Current.Properties.ContainsKey("user_e")
+							&& Application.Current.Properties.ContainsKey("user_pw")
+							&& Application.Current.Properties.ContainsKey("user_card"))
+						{
+							var id_e = Application.Current.Properties["user_e"] as String;
+							userEmail = id_e;
+							var id_pw = Application.Current.Properties["user_pw"] as String;
+							userPassword = id_pw;
+							//var id_c = Application.Current.Properties["user_card"] as String;
+							//userCard = id_c;
+						}
+
+
+						var emailMessenger = CrossMessaging.Current.EmailMessenger;
+						/*
+						if (emailMessenger.CanSendEmail && file_location != null)
+						{
+							var email = new EmailMessageBuilder()
+							.To(receiverEmail) //"reciepts@telaeris.com <---- reciever
+							.Subject($"Receipt on {DateTime.UtcNow.ToLocalTime()} ")
+							.Body($"Receipt on {DateTime.UtcNow.ToLocalTime()} ")
+							.WithAttachment(file_location, "image/jpeg")
+							.Build();
+
+
+							emailMessenger.SendEmail(email);
+						}
+						*/
+
+						//This gets executed instead:
+						// String subjectLine = (PurposeField.Text + " [" + VendorField.Text + AmountField.Text + DateField.Text + "]");
+						String subjectLine = (purpose + " [" + VendorField.Text + " " + AmountField.Text + " " + DateField.Text + "]");
+
+						SendSMTPMail(userEmail, receiverEmail, subjectLine, "Email body");
+
 					}
-
-
-					var emailMessenger = CrossMessaging.Current.EmailMessenger;
-                    /*
-					if (emailMessenger.CanSendEmail && file_location != null)
-					{
-						var email = new EmailMessageBuilder()
-						.To(receiverEmail) //"reciepts@telaeris.com <---- reciever
-						.Subject($"Receipt on {DateTime.UtcNow.ToLocalTime()} ")
-						.Body($"Receipt on {DateTime.UtcNow.ToLocalTime()} ")
-						.WithAttachment(file_location, "image/jpeg")
-						.Build();
-
-
-						emailMessenger.SendEmail(email);
-					}
-                    */
-
-                    //This gets executed instead:
-                    String subjectLine = (PurposeField.Text + " [" + VendorField.Text + AmountField.Text + DateField.Text + "]");
-					SendSMTPMail(userEmail, receiverEmail, subjectLine, "Email body");
-
 
 				}
-
-
-			}
-               
-			
+                        
+            }
+					 	
 		} //end Upload->Confirm Clicked
 
 
@@ -161,6 +201,9 @@ namespace XpressReceipt
         public void Perform_OCR(object sender, EventArgs e)
         {
             OcrGetTotal(file_location);
+            OcrGetDate(file_location);
+            OcrGetLast4Digits(file_location);
+
         }
 
 
@@ -238,6 +281,7 @@ namespace XpressReceipt
 
         public async void OcrGetTotal(String photo_loc) 
         {
+            Console.WriteLine("GETTING OCR TOTAL");
             //API Key for OCR access:
             //VisionServiceClient client = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
 
@@ -264,45 +308,317 @@ namespace XpressReceipt
 
             using (var photoStream = System.IO.File.OpenRead(photo_loc))
             {
-                try
-                {
+                //try
+                //{
                     text = await visionClient.RecognizeTextAsync(photoStream);  //Causes android to stop working?
 
-                } catch (Exception e)
-                {
-                    Console.WriteLine("Exception Caught: " + e); //System.Net.WebException: Error: NameResolutionFailure
-				}
+                //} catch (Exception e)
+                //{
+                //    Console.WriteLine("Exception Caught: " + e); //System.Net.WebException: Error: NameResolutionFailure
+				//}
             }
-            		
-            /*
+
+
 			foreach (var region in text.Regions)
 			{
 				foreach (var line in region.Lines)
 				{
 					foreach (var word in line.Words)
 					{
+                        Console.WriteLine("A word is: " + word.Text);
 						if (word.Text.Contains("$"))
 						{
-							var number = Double.Parse(word.Text.Replace("$", ""));
-							total = (number > total) ? number : total;
+                            try 
+                            {
+								Console.WriteLine("The word is:" + word.Text);
+								var word_double = word.Text.Substring(1); //Removes the dollar sign from the double
+								Console.WriteLine("The word is:" + word.Text);
+								var number = double.Parse(word_double, System.Globalization.CultureInfo.InvariantCulture);
+
+
+								total = (number > total) ? number : total;
+                                
+                            }
+							//System.FormatException: Input string was not in a correct format.
+							catch (Exception e)
+                            {
+                                Console.WriteLine("Caught Exception: " + e);
+                            }
+
 						}
 					}
 				}
-			} 
-               
+			}
+
+            //String string_total = total.ToString("F", System.Globalization.CultureInfo.InvariantCulture);
             String string_total = total.ToString();
             receiptTotal = string_total;
 
 			await DisplayAlert("Alert", "The total is:" + receiptTotal, "OK");
 
             //Maybe put this in its own method and call at end, when completely done with file.
-            photo.Dispose();
+            //photo.Dispose();
 
-            AmountField.Text = total.ToString();
-            */
+            AmountField.Text = "$" + total.ToString();
+
 
 
 		} //end performOCR_getTotal
+
+
+		public async void OcrGetDate(String photo_loc)
+		{
+            Console.WriteLine("GETTING OCR DATE");
+			//API Key for OCR access:
+			//VisionServiceClient client = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
+
+			OcrResults text;
+			String date = "Unknown_date";
+			//var photo_location = photo.Path;
+
+			String pathName = photo_loc;
+
+			if (pathName == null)
+			{
+				await DisplayAlert("Alert", "No photo has been taken, cannot perform OCR.", "OK");
+				return;
+			}
+
+			//Check for network Connectivity
+			if (!CrossConnectivity.Current.IsConnected)
+			{
+				await DisplayAlert("Network Error", "Please reconnect network and retry", "OK");
+				return;
+			}
+
+			//var new_photo = System.IO.File.OpenRead(photo_location);
+
+			using (var photoStream = System.IO.File.OpenRead(photo_loc))
+			{
+				//try
+				//{
+				text = await visionClient.RecognizeTextAsync(photoStream);  //Causes android to stop working?
+
+				//} catch (Exception e)
+				//{
+				//    Console.WriteLine("Exception Caught: " + e); //System.Net.WebException: Error: NameResolutionFailure
+				//}
+			}
+
+            String[] words_in_date_line = new String[100];  //assuming less than 50 words on a line
+            //ArrayList words_in_date_line = new ArrayList();
+            int counter = 0;
+
+			foreach (var region in text.Regions)
+			{
+				foreach (var line in region.Lines)
+				{
+					foreach (var word in line.Words)
+					{
+						Console.WriteLine("A word is: " + word.Text);
+						if (word.Text.Contains("AM") || word.Text.Contains("PM"))
+						{
+							try
+							{
+                                //Want to get that line again and extract the date
+                               // foreach (var line2 in region.Lines)
+                               // {
+                                    foreach (var word2 in line.Words)
+                                    {
+                                        //get all the words and put them in an arrayList
+                                       // words_in_date_line.Add(word2);
+									   // Console.WriteLine("Adding word: " + word2.Text + " to array.");
+
+										words_in_date_line[counter] = word2.Text;
+										Console.WriteLine("Adding word: " + word2.Text + " to array.");
+										counter++;
+										
+								}
+                                //}
+ 
+                            }
+							//System.FormatException: Input string was not in a correct format.
+							catch (Exception e)
+							{
+								Console.WriteLine("Caught Exception: " + e);
+							}
+
+						}
+					}
+				}
+			}
+
+            //Now scan that array to find the most-likely-date
+            foreach (var a_string in words_in_date_line)
+            {
+                if (a_string != null) //need to check for nullException
+                {
+					//if (a_string.ToString().Contains("/") || a_string.ToString().Contains("-"))
+					if (a_string.Contains("/") || a_string.Contains("-"))
+					{
+						date = a_string.ToString();
+					}
+                    
+                }
+				
+            }
+
+            /*
+            for (int i = 0; i <= counter; i++)
+            {
+                if (words_in_date_line[i].Contains("/") || words_in_date_line[i].Contains("-"))
+                {
+                    date = words_in_date_line[i];
+                }
+            }
+            */
+
+			await DisplayAlert("Alert", "The date is:" + date, "OK");
+
+            //Maybe put this in its own method and call at end, when completely done with file.
+            //photo.Dispose();
+
+            counter = 0;
+            if (date.Equals("Unknown_date"))  //string comparison
+            {
+                DateField.Text = DateTime.Today.ToString("d"); //get today's date
+
+            }
+            else {
+                DateField.Text = date;
+            }
+
+
+		} //end OCRGetDate
+
+
+		public async void OcrGetLast4Digits(String photo_loc)
+		{
+            Console.WriteLine("GETTING OCR CREDIT CARD ####");
+			//API Key for OCR access:
+			//VisionServiceClient client = new VisionServiceClient("1c9ce69ee64a4d10998e3683da0d8071");
+
+			OcrResults text;
+			String cardNum = "0000";
+            String[] cardArray = new String[5];
+            int counter = 0;
+			//var photo_location = photo.Path;
+
+			String pathName = photo_loc;
+
+			if (pathName == null)
+			{
+				await DisplayAlert("Alert", "No photo has been taken, cannot perform OCR.", "OK");
+				return;
+			}
+
+			//Check for network Connectivity
+			if (!CrossConnectivity.Current.IsConnected)
+			{
+				await DisplayAlert("Network Error", "Please reconnect network and retry", "OK");
+				return;
+			}
+
+			//var new_photo = System.IO.File.OpenRead(photo_location);
+
+			using (var photoStream = System.IO.File.OpenRead(photo_loc))
+			{
+				//try
+				//{
+				text = await visionClient.RecognizeTextAsync(photoStream);  //Causes android to stop working?
+
+				//} catch (Exception e)
+				//{
+				//    Console.WriteLine("Exception Caught: " + e); //System.Net.WebException: Error: NameResolutionFailure
+				//}
+			}
+
+
+			foreach (var region in text.Regions)
+			{
+				foreach (var line in region.Lines)
+				{
+					foreach (var word in line.Words)
+					{
+						Console.WriteLine("A word is: " + word.Text);
+                        if (word.Text.Contains("XXXX") || word.Text.Contains("****") || word.Text.Contains("####")
+                           || word.Text.Contains("xxxx"))
+						{
+							try
+							{
+								//Want to get that line again and extract the date
+								// foreach (var line2 in region.Lines)
+								// {
+								foreach (var word2 in line.Words)
+								{
+									//get all the words and put them in an arrayList
+									// words_in_date_line.Add(word2);
+									// Console.WriteLine("Adding word: " + word2.Text + " to array.");
+
+									cardArray[counter] = word2.Text;
+									Console.WriteLine("Adding word: " + word2.Text + " to Card Array.");
+									counter++;
+
+								}
+								//}
+
+							}
+							//System.FormatException: Input string was not in a correct format.
+							catch (Exception e)
+							{
+								Console.WriteLine("Caught Exception: " + e);
+							}
+
+						}
+					}
+				}
+			}
+
+			//Now scan that array to find the most-likely-date
+			foreach (var a_string in cardArray)
+			{
+				if (a_string != null) //need to check for nullException
+				{
+					//if (a_string.ToString().Contains("/") || a_string.ToString().Contains("-"))
+					if (a_string.Contains("1") || a_string.Contains("2") || a_string.Contains("3")
+                       || a_string.Contains("4") || a_string.Contains("5") || a_string.Contains("6")
+                       || a_string.Contains("7") || a_string.Contains("8") || a_string.Contains("9")
+                       || a_string.Contains("0"))
+					{
+                        cardNum = a_string.Substring(Math.Max(0, a_string.Length - 4));
+					}
+
+				}
+
+			}
+
+			await DisplayAlert("Alert", "The cardNum is:" + cardNum, "OK");
+
+            if (cardNum != "0000")
+            {
+                CardField.Text = cardNum;
+
+                //Makes the saved card the new OCR card #, not the login card #.
+                userCard = CardField.Text;
+            }
+            else {
+                if (Application.Current.Properties.ContainsKey("user_card"))
+                {
+					var id_c = Application.Current.Properties["user_card"] as String;
+					userCard = id_c;
+				}
+                CardField.Text = userCard;
+            }
+
+
+			//Maybe put this in its own method and call at end, when completely done with file.
+			//photo.Dispose();
+
+
+
+
+		} //end performOCR_getTotal
+
 
 
 
