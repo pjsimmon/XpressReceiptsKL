@@ -186,7 +186,9 @@ namespace XpressReceipt
 						// String subjectLine = (PurposeField.Text + " [" + VendorField.Text + AmountField.Text + DateField.Text + "]");
 						String subjectLine = (purpose + " [" + VendorField.Text + " " + AmountField.Text + " " + DateField.Text + "]");
 
-						SendSMTPMail(userEmail, receiverEmail, subjectLine, "Email body");
+                        String emailBody = BodyField.Text;
+
+						SendSMTPMail(userEmail, receiverEmail, subjectLine, emailBody);
 
 					}
 
@@ -216,6 +218,13 @@ namespace XpressReceipt
 
 			message.From.Add(InternetAddress.Parse(from));
 			message.To.Add(InternetAddress.Parse(to));
+
+
+            if (CardField.Text != userCard)
+            {
+                userCard = CardField.Text;
+            }
+
 			message.Subject = subject + "-" + userCard; //concatenate credit card #
 
 
@@ -289,6 +298,10 @@ namespace XpressReceipt
             double total = 0.0;
             //var photo_location = photo.Path;
 
+            String[] decimals = new String[50]; //make an array of all doubles
+            int counter = 0;
+            double max = 0.0;
+
             String pathName = photo_loc;
 
             if (pathName == null)
@@ -326,29 +339,53 @@ namespace XpressReceipt
 					foreach (var word in line.Words)
 					{
                         Console.WriteLine("A word is: " + word.Text);
-						if (word.Text.Contains("$"))
-						{
-                            try 
+                        if (word.Text.Contains("$"))
+                        {
+                            try
                             {
-								Console.WriteLine("The word is:" + word.Text);
-								var word_double = word.Text.Substring(1); //Removes the dollar sign from the double
-								Console.WriteLine("The word is:" + word.Text);
-								var number = double.Parse(word_double, System.Globalization.CultureInfo.InvariantCulture);
+                                Console.WriteLine("The word is:" + word.Text);
+                                var word_double = word.Text.Substring(1); //Removes the dollar sign from the double
+                                Console.WriteLine("The word is:" + word.Text);
+                                var number = double.Parse(word_double, System.Globalization.CultureInfo.InvariantCulture);
 
 
-								total = (number > total) ? number : total;
-                                
+                                total = (number > total) ? number : total;
+
                             }
-							//System.FormatException: Input string was not in a correct format.
-							catch (Exception e)
+                            //System.FormatException: Input string was not in a correct format.
+                            catch (Exception e)
                             {
                                 Console.WriteLine("Caught Exception: " + e);
                             }
 
-						}
+                        }
+                        ///////// if the receipt doesn't use $ signs /////////
+                        else if (word.Text.Contains("."))
+                        {
+                            decimals[counter] = word.Text;
+                            counter++;
+                            try
+                            {
+                                Console.WriteLine("Adding the decimal: " + word.Text);
+                                double number = double.Parse(word.Text, System.Globalization.CultureInfo.InvariantCulture);
+                                if (number > max)
+                                {
+                                    max = number;
+                                }
+                            }
+                            catch (Exception e) //Invalid format b/c % sign maybe
+                            {
+                                Console.WriteLine("Caught Exception: " + e);
+                            }
+                        }
 					}
 				}
 			}
+
+            if (total.Equals(0.0)) //comparing doubles
+            {
+                total = max;
+            }
 
             //String string_total = total.ToString("F", System.Globalization.CultureInfo.InvariantCulture);
             String string_total = total.ToString();
@@ -365,6 +402,8 @@ namespace XpressReceipt
 
 		} //end performOCR_getTotal
 
+
+        /* OCR GET DATE */
 
 		public async void OcrGetDate(String photo_loc)
 		{
@@ -416,7 +455,7 @@ namespace XpressReceipt
 					foreach (var word in line.Words)
 					{
 						Console.WriteLine("A word is: " + word.Text);
-						if (word.Text.Contains("AM") || word.Text.Contains("PM"))
+						if (word.Text.Contains("AM") || word.Text.Contains("PM") || word.Text.Contains(":"))
 						{
 							try
 							{
@@ -454,7 +493,7 @@ namespace XpressReceipt
                 if (a_string != null) //need to check for nullException
                 {
 					//if (a_string.ToString().Contains("/") || a_string.ToString().Contains("-"))
-					if (a_string.Contains("/") || a_string.Contains("-"))
+                    if ((a_string.Contains("/") || a_string.Contains("-")) && a_string.Length <= 10) //date will be less than 10, helps not get phone #
 					{
 						date = a_string.ToString();
 					}
@@ -609,6 +648,8 @@ namespace XpressReceipt
 				}
                 CardField.Text = userCard;
             }
+
+
 
 
 			//Maybe put this in its own method and call at end, when completely done with file.

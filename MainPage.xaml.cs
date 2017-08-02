@@ -45,6 +45,7 @@ namespace XpressReceipt
 
         private async void BtnCapture_Clicked(object sender, EventArgs e)
         {
+            Console.WriteLine("Capture Button Clicked!");
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
@@ -131,6 +132,8 @@ namespace XpressReceipt
             {
                 await Navigation.PushAsync(new MainPage());
             }
+
+            Console.WriteLine("Got to end of Capture Button Clicked Method.");
 
 
         }
